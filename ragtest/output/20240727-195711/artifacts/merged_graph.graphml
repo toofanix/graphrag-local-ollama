@@ -1,0 +1,454 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;MACHINE LEARNING&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Machine Learning is a subset of Artificial Intelligence that focuses on developing algorithms for automated decision-making."
+"Machine Learning is a transformative technology increasingly prevalent in transportation."
+</data>
+      <data key="d2">4a25dab6bbc7b764367e4d6baadd5a05,7c22470c6324e4c2499e531c31b74578,a3ab3d8c1e33e7f8dd574c6ee791c82c</data>
+    </node>
+    <node id="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Artificial Intelligence refers to the ability of machines to perform tasks typically requiring human intelligence, such as learning and problem-solving."</data>
+      <data key="d2">4a25dab6bbc7b764367e4d6baadd5a05</data>
+    </node>
+    <node id="&quot;TRANSPORTATION&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">a3ab3d8c1e33e7f8dd574c6ee791c82c</data>
+    </node>
+    <node id="&quot;SPACEX&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"SpaceX is a private spaceflight company that will launch its first tourist mission around the moon in 2023."</data>
+      <data key="d2">a3ab3d8c1e33e7f8dd574c6ee791c82c</data>
+    </node>
+    <node id="&quot;YUSAKU MAEZAWA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Yusaku Maezawa is a Japanese billionaire who paid for the entire DearMoon journey as a gesture of goodwill."</data>
+      <data key="d2">a3ab3d8c1e33e7f8dd574c6ee791c82c</data>
+    </node>
+    <node id="&quot;ELON MUSK&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">a3ab3d8c1e33e7f8dd574c6ee791c82c</data>
+    </node>
+    <node id="&quot;MACHINE LEARNING (ML)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Machine Learning is a field that aims to create more comprehensive and intelligent systems."</data>
+      <data key="d2">7c22470c6324e4c2499e531c31b74578</data>
+    </node>
+    <node id="&quot;QUANTUM COMPUTING&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Quantum Computing is expected to enhance the processing capabilities of ML algorithms, enabling them to tackle complex problems."
+"Quantum Computing has the potential to enhance the capabilities of GNNs by enabling efficient solutions to complex problems."
+"Quantum computing has potential to enhance capabilities of Graph Neural Networks (GNNs)."</data>
+      <data key="d2">242307f545da2144b2e3affbd99017d2,4bc1199e51b3761ff780c6962e102170,7c22470c6324e4c2499e531c31b74578</data>
+    </node>
+    <node id="&quot;EXPLAINABLE AI (XAI)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Explainable AI aims to make machine learning models more transparent and understandable for users."</data>
+      <data key="d2">7c22470c6324e4c2499e531c31b74578</data>
+    </node>
+    <node id="&quot;GRAPH NEURAL NETWORKS (GNNS)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Graph Neural Networks are a class of machine learning algorithms designed to perform inference on data represented as graphs."
+"Graph Neural Networks are a type of machine learning model used for tasks like traffic prediction, fraud detection, protein structure prediction, and more."
+"GNNs are a type of neural network designed for graph-structured data, currently facing challenges in interpretability and explainability."
+"GNNs are a type of neural network used for graph data, with potential to become more integral in AI and machine learning landscape."</data>
+      <data key="d2">242307f545da2144b2e3affbd99017d2,4bc1199e51b3761ff780c6962e102170,7b4e128a12389cacb693c4d1cf7a7965,d27cdcb65db42c0c877078ad4bbc0349</data>
+    </node>
+    <node id="&quot;GRAPH CONVOLUTIONAL NETWORKS (GCNS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Graph Convolutional Networks extend the concept of convolutional neural networks to graph data by performing convolutions on nodes, aggregating features from neighboring nodes to learn node embeddings."
+"GCNs are a type of Graph Neural Network that learns node embeddings by performing convolutions on nodes and aggregating features from neighboring nodes."</data>
+      <data key="d2">7b4e128a12389cacb693c4d1cf7a7965,efd8fda36bf6f6b3824489af108b519a</data>
+    </node>
+    <node id="&quot;GRAPH ATTENTION NETWORKS (GATS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Graph Attention Networks enhance the aggregation process in GCNs by incorporating attention mechanisms, allowing the model to weigh the importance of different neighbors differently during the aggregation process."
+"GATs enhance the process of GCNs by incorporating attention mechanisms, allowing the model to weigh the importance of different neighbors differently during aggregation."</data>
+      <data key="d2">7b4e128a12389cacb693c4d1cf7a7965,efd8fda36bf6f6b3824489af108b519a</data>
+    </node>
+    <node id="&quot;GRAPH RECURRENT NEURAL NETWORKS (GRNNS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Graph Recurrent Neural Networks utilize recurrent neural network architectures to capture temporal or sequential dependencies in dynamic graphs."</data>
+      <data key="d2">7b4e128a12389cacb693c4d1cf7a7965</data>
+    </node>
+    <node id="&quot;GATED RECURRENT NEURAL NETWORKS (GRNNS)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"GRNNs utilize recurrent neural network architectures to capture temporal or sequential dependencies in dynamic graphs."</data>
+      <data key="d2">efd8fda36bf6f6b3824489af108b519a</data>
+    </node>
+    <node id="&quot;GCNS&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">efd8fda36bf6f6b3824489af108b519a</data>
+    </node>
+    <node id="&quot;GATS&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">efd8fda36bf6f6b3824489af108b519a</data>
+    </node>
+    <node id="&quot;SCALABILITY&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">d27cdcb65db42c0c877078ad4bbc0349</data>
+    </node>
+    <node id="&quot;SCALABLE GNN ARCHITECTURES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Scalable GNN Architectures refer to designs capable of handling massive graphs with billions of nodes and edges."</data>
+      <data key="d2">4bc1199e51b3761ff780c6962e102170</data>
+    </node>
+    <node id="&quot;GRAPH SAMPLING&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Graph Sampling is a technique used to handle large graphs by selecting representative subsets for processing."</data>
+      <data key="d2">4bc1199e51b3761ff780c6962e102170</data>
+    </node>
+    <node id="&quot;MINI-BATCHING&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Mini-batching involves dividing data into smaller batches for efficient processing in neural networks, including GNNs."</data>
+      <data key="d2">4bc1199e51b3761ff780c6962e102170</data>
+    </node>
+    <node id="&quot;DISTRIBUTED COMPUTING&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Distributed Computing refers to the coordination of multiple computers to perform tasks, which can be applied to make GNNs more scalable."</data>
+      <data key="d2">4bc1199e51b3761ff780c6962e102170</data>
+    </node>
+    <node id="&quot;ROBUSTNESS AND GENERALIZATION&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Robustness and Generalization refer to the ability of GNNs to maintain performance across various types of graphs and tasks."</data>
+      <data key="d2">4bc1199e51b3761ff780c6962e102170</data>
+    </node>
+    <node id="&quot;EXPLAINABILITY AND INTERPRETABILITY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Explainability and Interpretability are crucial aspects for understanding how GNNs make decisions."</data>
+      <data key="d2">4bc1199e51b3761ff780c6962e102170</data>
+    </node>
+    <node id="&quot;HYBRID MODELS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Hybrid Models combine different AI and machine learning paradigms, such as reinforcement learning and unsupervised learning, with GNNs to create more powerful systems."</data>
+      <data key="d2">4bc1199e51b3761ff780c6962e102170</data>
+    </node>
+    <node id="&quot;GNNS&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">4bc1199e51b3761ff780c6962e102170</data>
+    </node>
+    <node id="&quot;TRANSFORMER NEURAL NETWORKS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Transformer neural networks are a revolutionary architecture in deep learning, particularly for natural language processing tasks."
+"Transformer Neural Networks have revolutionized various applications across different domains, including NLP and computer vision."
+"Transformer Neural Networks are a type of neural network architecture that processes sequential data by treating it as sequences of patches or words in a sentence."
+"Transformers are a type of neural network architecture that is widely used in AI and machine learning."</data>
+      <data key="d2">dbe3016165bd0337671f6a43f95fe098,e65eea82cd46a8251e3ecf779e46cb6e,ee0c1bc3dce1d1879a0c015fa8a49e96,f015bf374b40414fad140b78c21ec7bb</data>
+    </node>
+    <node id="&quot;VASWANI ET AL.&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Vaswani et al. introduced the transformer architecture in their 2017 paper 'Attention is All You Need'."</data>
+      <data key="d2">f015bf374b40414fad140b78c21ec7bb</data>
+    </node>
+    <node id="&quot;RECURRENT NEURAL NETWORKS (RNNS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"RNNs are traditional neural network architectures that process data sequentially, unlike transformers."</data>
+      <data key="d2">f015bf374b40414fad140b78c21ec7bb</data>
+    </node>
+    <node id="&quot;CONVOLUTIONAL NEURAL NETWORKS (CNNS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"CNNs are another type of traditional neural network architecture that excel at grid-like data but struggle with sequential data."
+"Convolutional Neural Networks are a specialized type of neural network designed primarily for processing structured grid data."
+"CNNs are a type of neural network primarily used for image processing tasks."</data>
+      <data key="d2">bc5189e278749afc6b33c41e86a27927,e2083317ca3a8f0690bde0981dd98ea3,f015bf374b40414fad140b78c21ec7bb</data>
+    </node>
+    <node id="&quot;SELF-ATTENTION MECHANISM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The self-attention mechanism is a core component of the transformer architecture, enabling it to weigh the importance of different words or elements simultaneously."</data>
+      <data key="d2">f015bf374b40414fad140b78c21ec7bb</data>
+    </node>
+    <node id="&quot;ENCODER&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"The encoder in a transformer processes the input sequence and generates attention-weighted vectors."
+"The encoder is a component of the Transformer model that processes input sequences."</data>
+      <data key="d2">e65eea82cd46a8251e3ecf779e46cb6e,f015bf374b40414fad140b78c21ec7bb</data>
+    </node>
+    <node id="&quot;DECODER&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"The decoder in a transformer uses the output from the encoder to generate the final sequence."
+"The decoder generates output sequences based on attention-weighted vectors from the encoder and previously generated outputs in the Transformer model."</data>
+      <data key="d2">e65eea82cd46a8251e3ecf779e46cb6e,f015bf374b40414fad140b78c21ec7bb</data>
+    </node>
+    <node id="&quot;ORGANIZATION&quot;">
+      <data key="d0" />
+      <data key="d1">
+"The AI and Machine Learning Community is mentioned as being at the forefront of its field, indicating its prominence."</data>
+      <data key="d2">7befbf2cdd18e8189b0f6e34637a77f3,ee0c1bc3dce1d1879a0c015fa8a49e96</data>
+    </node>
+    <node id="&quot;REFORMER&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The Reformer is an efficient transformer architecture aimed at reducing computational complexity and memory usage."</data>
+      <data key="d2">dbe3016165bd0337671f6a43f95fe098</data>
+    </node>
+    <node id="&quot;LINFORMER&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The Linformer is another efficient transformer architecture focused on reducing computational complexity."</data>
+      <data key="d2">dbe3016165bd0337671f6a43f95fe098</data>
+    </node>
+    <node id="&quot;LONGFORMER&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The Longformer is an efficient transformer architecture designed for longer sequences and real-time applications."</data>
+      <data key="d2">dbe3016165bd0337671f6a43f95fe098</data>
+    </node>
+    <node id="&quot;AI AND MACHINE LEARNING COMMUNITY&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">7befbf2cdd18e8189b0f6e34637a77f3</data>
+    </node>
+    <node id="&quot;INNOVATION&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">7befbf2cdd18e8189b0f6e34637a77f3</data>
+    </node>
+    <node id="&quot;LECUN ET AL.&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"LeCun et al. popularized Convolutional Neural Networks through the development of LeNet for digit recognition."</data>
+      <data key="d2">e2083317ca3a8f0690bde0981dd98ea3</data>
+    </node>
+    <node id="&quot;COMPUTER VISION APPLICATIONS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Computer Vision Applications is a field where Convolutional Neural Networks have achieved remarkable success."</data>
+      <data key="d2">e2083317ca3a8f0690bde0981dd98ea3</data>
+    </node>
+    <node id="&quot;ALEXNET&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"AlexNet is an application of CNNs, achieving state-of-the-art performance in image classification on the ImageNet dataset."</data>
+      <data key="d2">bc5189e278749afc6b33c41e86a27927</data>
+    </node>
+    <node id="&quot;VGGNET&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"VGGNet is another application of CNNs, known for its simplicity and consistency in architecture."</data>
+      <data key="d2">bc5189e278749afc6b33c41e86a27927</data>
+    </node>
+    <node id="&quot;RESNET&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ResNet (Residual Network) is a CNN variant that uses residual blocks to mitigate the vanishing gradient problem."</data>
+      <data key="d2">bc5189e278749afc6b33c41e86a27927</data>
+    </node>
+    <node id="&quot;YOLO (YOU ONLY LOOK ONCE)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"YOLO is an object detection system based on CNNs, designed for real-time processing."</data>
+      <data key="d2">bc5189e278749afc6b33c41e86a27927</data>
+    </node>
+    <node id="&quot;FASTER R-CNN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Faster R-CNN is another CNN-based object detection framework that improves upon the original R-CNN by using a Region Proposal Network (RPN)."
+"Faster R-CNN is another object detection system that uses CNNs to identify and locate objects in images."</data>
+      <data key="d2">6091f6e9e75fb0c08b45612806cf11e6,bc5189e278749afc6b33c41e86a27927</data>
+    </node>
+    <node id="&quot;OLO (YOU ONLY LOOK ONCE)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"OLO is an object detection system that leverages Convolutional Neural Networks (CNNs) for identifying and localizing objects within images."</data>
+      <data key="d2">6091f6e9e75fb0c08b45612806cf11e6</data>
+    </node>
+    <node id="&quot;CNNS (CONVOLUTIONAL NEURAL NETWORKS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"CNNs are a class of neural networks primarily used for image processing tasks, such as object detection and classification."</data>
+      <data key="d2">6091f6e9e75fb0c08b45612806cf11e6</data>
+    </node>
+    <node id="&quot;CNNS&quot;">
+      <data key="d0" />
+      <data key="d1">
+"CNNs (Convolutional Neural Networks) are a type of neural network used for image processing tasks."</data>
+      <data key="d2">31170fdcb9137905634fbe1f6f7312cd,6091f6e9e75fb0c08b45612806cf11e6</data>
+    </node>
+    <node id="&quot;MEDICAL IMAGING&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"In medical imaging, CNNs assist in diagnosing diseases by analyzing X-rays, MRIs, and CT scans."</data>
+      <data key="d2">6091f6e9e75fb0c08b45612806cf11e6</data>
+    </node>
+    <node id="&quot;RNNS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"RNNs (Recurrent Neural Networks) are another type of neural network designed to handle sequential data."</data>
+      <data key="d2">31170fdcb9137905634fbe1f6f7312cd</data>
+    </node>
+    <node id="&quot;TRANSFORMERS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Transformers are a type of neural network model that uses attention mechanisms for natural language processing tasks."</data>
+      <data key="d2">31170fdcb9137905634fbe1f6f7312cd</data>
+    </node>
+    <node id="&quot;GENOMICS&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Genomics is the study of an organism's genome, focusing on understanding and mapping genetic information."</data>
+      <data key="d2">31170fdcb9137905634fbe1f6f7312cd</data>
+    </node>
+    <node id="&quot;CLIMATE SCIENCE&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Climate Science is the study of Earth's climate and the effects of human activities on it."</data>
+      <data key="d2">31170fdcb9137905634fbe1f6f7312cd</data>
+    </node>
+    <node id="&quot;ART GENERATION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Art Generation refers to the creation of art using artificial intelligence, such as CNNs."</data>
+      <data key="d2">31170fdcb9137905634fbe1f6f7312cd</data>
+    </node>
+    <edge source="&quot;MACHINE LEARNING&quot;" target="&quot;ARTIFICIAL INTELLIGENCE&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Machine Learning is a subset of Artificial Intelligence."</data>
+      <data key="d5">4a25dab6bbc7b764367e4d6baadd5a05</data>
+    </edge>
+    <edge source="&quot;MACHINE LEARNING&quot;" target="&quot;TRANSPORTATION&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Machine Learning has the potential to transform transportation systems."</data>
+      <data key="d5">a3ab3d8c1e33e7f8dd574c6ee791c82c</data>
+    </edge>
+    <edge source="&quot;MACHINE LEARNING&quot;" target="&quot;QUANTUM COMPUTING&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Advancements in Quantum Computing are expected to significantly enhance the processing capabilities of ML algorithms."</data>
+      <data key="d5">7c22470c6324e4c2499e531c31b74578</data>
+    </edge>
+    <edge source="&quot;SPACEX&quot;" target="&quot;ELON MUSK&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Elon Musk, as CEO of SpaceX, announced the first tourist mission around the moon."</data>
+      <data key="d5">a3ab3d8c1e33e7f8dd574c6ee791c82c</data>
+    </edge>
+    <edge source="&quot;QUANTUM COMPUTING&quot;" target="&quot;GNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The advent of quantum computing holds potential for further enhancing the capabilities of GNNs."</data>
+      <data key="d5">4bc1199e51b3761ff780c6962e102170</data>
+    </edge>
+    <edge source="&quot;QUANTUM COMPUTING&quot;" target="&quot;GRAPH NEURAL NETWORKS (GNNS)&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Quantum computing has the capability to enhance Graph Neural Networks (GNNs)."</data>
+      <data key="d5">242307f545da2144b2e3affbd99017d2</data>
+    </edge>
+    <edge source="&quot;GRAPH NEURAL NETWORKS (GNNS)&quot;" target="&quot;GRAPH CONVOLUTIONAL NETWORKS (GCNS)&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Graph Neural Networks include Graph Convolutional Networks as a type designed for specific graph data tasks."</data>
+      <data key="d5">7b4e128a12389cacb693c4d1cf7a7965</data>
+    </edge>
+    <edge source="&quot;GRAPH NEURAL NETWORKS (GNNS)&quot;" target="&quot;SCALABILITY&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"One major challenge faced by Graph Neural Networks is scalability, as their computational complexity can grow rapidly with the size of the graph."</data>
+      <data key="d5">d27cdcb65db42c0c877078ad4bbc0349</data>
+    </edge>
+    <edge source="&quot;GCNS&quot;" target="&quot;GATS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"GATs enhance the process of GCNs by incorporating attention mechanisms."</data>
+      <data key="d5">efd8fda36bf6f6b3824489af108b519a</data>
+    </edge>
+    <edge source="&quot;SCALABLE GNN ARCHITECTURES&quot;" target="&quot;GNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The development of scalable architectures is a key direction for improving GNNs' ability to handle large graphs."</data>
+      <data key="d5">4bc1199e51b3761ff780c6962e102170</data>
+    </edge>
+    <edge source="&quot;GRAPH SAMPLING&quot;" target="&quot;GNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Graph Sampling is used to make GNNs more efficient on large graphs."</data>
+      <data key="d5">4bc1199e51b3761ff780c6962e102170</data>
+    </edge>
+    <edge source="&quot;MINI-BATCHING&quot;" target="&quot;GNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Mini-batching can be applied in GNNs for efficient training on large datasets."</data>
+      <data key="d5">4bc1199e51b3761ff780c6962e102170</data>
+    </edge>
+    <edge source="&quot;DISTRIBUTED COMPUTING&quot;" target="&quot;GNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Distributed Computing can be used to improve the scalability of GNNs."</data>
+      <data key="d5">4bc1199e51b3761ff780c6962e102170</data>
+    </edge>
+    <edge source="&quot;ROBUSTNESS AND GENERALIZATION&quot;" target="&quot;GNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Improving robustness and generalization is an important direction for enhancing GNNs' performance across different tasks."</data>
+      <data key="d5">4bc1199e51b3761ff780c6962e102170</data>
+    </edge>
+    <edge source="&quot;EXPLAINABILITY AND INTERPRETABILITY&quot;" target="&quot;GNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Advances in explainability and interpretability are crucial for understanding how GNNs make predictions."</data>
+      <data key="d5">4bc1199e51b3761ff780c6962e102170</data>
+    </edge>
+    <edge source="&quot;HYBRID MODELS&quot;" target="&quot;GNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Integrating GNNs with other AI paradigms can create more powerful hybrid models."</data>
+      <data key="d5">4bc1199e51b3761ff780c6962e102170</data>
+    </edge>
+    <edge source="&quot;TRANSFORMER NEURAL NETWORKS&quot;" target="&quot;VASWANI ET AL.&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Transformer neural networks were introduced by Vaswani et al. in their 2017 paper."</data>
+      <data key="d5">f015bf374b40414fad140b78c21ec7bb</data>
+    </edge>
+    <edge source="&quot;TRANSFORMER NEURAL NETWORKS&quot;" target="&quot;ENCODER&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The Encoder is a key component of Transformer Neural Networks."</data>
+      <data key="d5">e65eea82cd46a8251e3ecf779e46cb6e</data>
+    </edge>
+    <edge source="&quot;TRANSFORMER NEURAL NETWORKS&quot;" target="&quot;ORGANIZATION&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Transformers are being explored and used by various organizations for diverse machine learning tasks due to their versatility and robustness."</data>
+      <data key="d5">ee0c1bc3dce1d1879a0c015fa8a49e96</data>
+    </edge>
+    <edge source="&quot;TRANSFORMER NEURAL NETWORKS&quot;" target="&quot;REFORMER&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The Reformer aims to make transformers feasible for longer sequences and real-time applications."</data>
+      <data key="d5">dbe3016165bd0337671f6a43f95fe098</data>
+    </edge>
+    <edge source="&quot;TRANSFORMER NEURAL NETWORKS&quot;" target="&quot;LINFORMER&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The Linformer is another approach to making transformers more efficient."</data>
+      <data key="d5">dbe3016165bd0337671f6a43f95fe098</data>
+    </edge>
+    <edge source="&quot;TRANSFORMER NEURAL NETWORKS&quot;" target="&quot;LONGFORMER&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The Longformer aims to improve the efficiency of transformer architectures for longer sequences and real-time applications."</data>
+      <data key="d5">dbe3016165bd0337671f6a43f95fe098</data>
+    </edge>
+    <edge source="&quot;CONVOLUTIONAL NEURAL NETWORKS (CNNS)&quot;" target="&quot;LECUN ET AL.&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"LeCun et al. introduced and popularized Convolutional Neural Networks."</data>
+      <data key="d5">e2083317ca3a8f0690bde0981dd98ea3</data>
+    </edge>
+    <edge source="&quot;CONVOLUTIONAL NEURAL NETWORKS (CNNS)&quot;" target="&quot;ALEXNET&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"AlexNet is based on CNNs and uses them for image classification."</data>
+      <data key="d5">bc5189e278749afc6b33c41e86a27927</data>
+    </edge>
+    <edge source="&quot;CONVOLUTIONAL NEURAL NETWORKS (CNNS)&quot;" target="&quot;VGGNET&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"VGGNet is another application of CNNs, demonstrating their versatility in image processing tasks."</data>
+      <data key="d5">bc5189e278749afc6b33c41e86a27927</data>
+    </edge>
+    <edge source="&quot;CONVOLUTIONAL NEURAL NETWORKS (CNNS)&quot;" target="&quot;RESNET&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"ResNet builds upon the CNN architecture to address specific challenges in deep learning."</data>
+      <data key="d5">bc5189e278749afc6b33c41e86a27927</data>
+    </edge>
+    <edge source="&quot;AI AND MACHINE LEARNING COMMUNITY&quot;" target="&quot;INNOVATION&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"The AI and Machine Learning Community drives innovation in various fields."</data>
+      <data key="d5">7befbf2cdd18e8189b0f6e34637a77f3</data>
+    </edge>
+    <edge source="&quot;FASTER R-CNN&quot;" target="&quot;CNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"Faster R-CNN employs CNNs for object detection in images."</data>
+      <data key="d5">6091f6e9e75fb0c08b45612806cf11e6</data>
+    </edge>
+    <edge source="&quot;OLO (YOU ONLY LOOK ONCE)&quot;" target="&quot;CNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"OLO uses CNNs to identify and localize objects within images."</data>
+      <data key="d5">6091f6e9e75fb0c08b45612806cf11e6</data>
+    </edge>
+    <edge source="&quot;CNNS&quot;" target="&quot;MEDICAL IMAGING&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"CNNs are used in medical imaging for disease diagnosis."</data>
+      <data key="d5">6091f6e9e75fb0c08b45612806cf11e6</data>
+    </edge>
+    <edge source="&quot;CNNS&quot;" target="&quot;RNNS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">"CNNs can be combined with other neural network types like RNNs to create hybrid models."</data>
+      <data key="d5">31170fdcb9137905634fbe1f6f7312cd</data>
+    </edge>
+  </graph>
+</graphml>
