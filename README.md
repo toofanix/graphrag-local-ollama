@@ -1,0 +1,1 @@
+# graphrag-local-ollama
